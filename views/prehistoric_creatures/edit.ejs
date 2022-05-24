@@ -1,0 +1,11 @@
+<form method="POST" action="/dinosaurs/<%= creatureId %>/?_method=PUT">
+    
+	<label for="type">Type</label>
+	<input id="type" type="text" name="type" value="<%= creature.type %>" />
+	
+    <label for="name">Image Url</label>
+	<input id="name" type="text" name="name" value="<%= creature.img_url %>" />
+
+	
+	<button type="submit">Submit</button>
+</form>
